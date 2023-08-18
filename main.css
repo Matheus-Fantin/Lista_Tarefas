@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+    background-color: rgb(187, 236, 255);
+}
+
+header h1 {
+    border-bottom: 4px solid #0b96f3;
+    font-style: italic;
+}
+
+form{
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: 3px solid #0b96f3;
+    background-color: rgb(187, 236, 255);
+}
+
+form button{
+    background: #6dc4ff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input, form button{
+    padding: 8px;
+    border-radius: 10px;
+    border-color: #012ef7
+}
+
+form input:focus {
+    outline-color: #0b96f3;
+}
+
+ul{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+ul li{
+    padding: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer h2{
+    font-style: italic;
+    border-bottom: 3px solid #0b96f3
+}
+
+.novoItem {
+    text-decoration: line-through; 
+}
