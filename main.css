@@ -65,4 +65,5 @@ footer h2{
 
 .novoItem {
     text-decoration: line-through; 
+    cursor: pointer;
 }
